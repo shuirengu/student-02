@@ -29,7 +29,7 @@ mybatis-plus:
   mapper-locations: classpath:/mybatis/mappers/*.xml
   configuration:
     map-underscore-to-camel-case: true  #自动开启驼峰规则映射
-    ---
+---
 server:
   port: 8003
   servlet:
